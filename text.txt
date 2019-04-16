@@ -1,1 +1,60 @@
-hi, this is my first experience using Git.
+hi, this is some little introduction to css for beginners
+try on your own and learn.
+
+showing you how to use classes in css and plus a little html. to create a better out put.
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Css</title>
+<style>
+body{
+    background-color: #000000 ;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin:0;
+}
+.container{
+    width: 80%;
+    margin:auto;
+}
+.box-1{
+    background-color: #f4f4f4;
+    color: #333333;
+    border-width: 3px;
+    border-right: 3px blue solid;
+    border-bottom: 3px blue solid;
+    /*border-bottom-style: dotted;*/
+    padding-top: 20px;
+    border: 3px gray solid;
+    padding: 20px;
+    margin:20px;
+}
+.box-1 h1{
+    font-family: cursive;
+    font-weight:800;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline;
+    word-spacing: 0.2em; 
+}
+</style>
+</head>
+<body>
+    <div class="container">
+    <div class="box-1">
+    <h1>HI WORLD</h1>
+    <p>Lorem ipsum dolor
+         sit amet consectetur
+          adipisicing elit. Rem deserunt
+           blanditiis sint nemo dicta dolorem
+            fugiat mollitia earum aliquid. Neque
+             harum excepturi nobis architecto quibusdam 
+             eaque officia? Commodi, ad accusantium.</p>
+</div>
+</div>
+</body>
+</html>
