@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            vindick
+        </title>
+        <style>
+             body{
+                 background-color: darkgray;
+                 color: #ffffff;
+                 border: 5%;
+                 margin:0;
+                 padding:1%;
+                 font-family: 'Courier New', Courier, monospace;
+
+             }
+             .vin{ 
+                 border: 2px gray solid;
+                 margin: 5%;
+                 padding: 5px;
+                 margin:auto;
+                 width: 20%;
+             }
+        </style>
+    </head>
+    <body>
+        <h1>Hi World</h1>
+        <div  class="vin">
+        <p>
+            <label>Name:</label>
+            <input type="text" placeholder="type your name">
+        </p>
+        <p>
+            <label>Pass: </label>
+            <input type="password" placeholder="type your password">
+        </p>
+        <p>
+            <input type="submit" value="submit">
+        </p>
+    </div>
+    </body>
+</html>
+
